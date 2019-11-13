@@ -1,0 +1,10 @@
+universe=vanilla
+executable=/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/bin/python
+output=output.out
+error=error.out
+log=log.log
+
+arguments= -u LISAroq67.py
+request_memory=16G
+request_cpus=1
+queue
