@@ -32,8 +32,8 @@ plot_params = {'legend.fontsize': 'x-large',
          'ytick.labelsize':'x-large'}
 pylab.rcParams.update(plot_params)
 from mpl_toolkits.mplot3d import axes3d
-import PyROQ.pyroq as pyroq
-#import pyroq as pyroq
+#import PyROQ.pyroq as pyroq
+import pyroq as pyroq
 
 
 # # Setting up boundary conditions and tolerance requirements.
