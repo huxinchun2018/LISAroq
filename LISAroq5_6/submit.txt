@@ -1,0 +1,10 @@
+universe=vanilla
+executable=/home/huxinchun/miniconda3/envs/pyroq/bin/python
+output=output.out
+error=error.out
+log=log.log
+
+arguments= -u LISAbasis5_6.py
+request_memory=16G
+request_cpus=1
+queue
