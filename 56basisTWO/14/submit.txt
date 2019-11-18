@@ -1,0 +1,11 @@
+universe=vanilla
+executable=/cvmfs/ligo-containers.opensciencegrid.org/lscsoft/conda/latest/envs/ligo-py36/bin/python
+accounting_group = ligo.prod.o3.cbc.pe.lalinference
+accounting_group_user = xinchun.hu
+output=output.out
+error=error.out
+log=log.log
+
+arguments=-u LISAroq56_1_4.py
+request_memory=16G
+queue 1
