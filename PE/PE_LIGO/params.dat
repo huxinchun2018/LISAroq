@@ -1,0 +1,2 @@
+#flow fhigh seglen q-min q-max comp-min chirpmass-min chirpmass-max chiL1-min chiL1-max chiL2-min chiL2-max chi_p-min chi_p-max thetaJ-min thetaJ-max alpha0-min alpha0-max
+20 1024 4 1 8 1.001398 12.299703 45 -0.880000 0.880000 -0.880000 0.880000 -0.880000 0.880000  -3.14159 3.14159 -6.28319 6.28319

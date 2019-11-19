@@ -67,10 +67,10 @@ waveFlags = lal.CreateDict()
 approximant = lalsimulation.IMRPhenomPv2
 print("mass-min, mass-max: ", pyroq.massrange(mc_low, mc_high, q_low, q_high))
 
-parallel = 1 # The parallel=1 will turn on multiprocesses to search for a new basis. To turn it off, set it to be 0.
+parallel = 0 # The parallel=1 will turn on multiprocesses to search for a new basis. To turn it off, set it to be 0.
              # Do not turn it on if the waveform generation is not slow compared to data reading and writing to files.
              # This is more useful when each waveform takes larger than 0.01 sec to generate.
-nprocesses = 64 # Set the number of parallel processes when searching for a new basis.  nprocesses=mp.cpu_count()
+nprocesses = 4 # Set the number of parallel processes when searching for a new basis.  nprocesses=mp.cpu_count()
 
 
 nts = 1000 # Number of random test waveforms
