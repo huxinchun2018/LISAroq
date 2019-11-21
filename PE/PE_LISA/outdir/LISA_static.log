@@ -1,0 +1,115 @@
+10:08 INFO    : Injected signal in LISA_static:
+10:08 INFO    :   optimal SNR = 39.20
+10:08 INFO    :   matched filter SNR = 39.20+0.00j
+10:08 INFO    :   mass_1 = 3600000.0
+10:08 INFO    :   mass_2 = 2900000.0
+10:08 INFO    :   a_1 = 0.4
+10:08 INFO    :   a_2 = 0.3
+10:08 INFO    :   tilt_1 = 0.0
+10:08 INFO    :   tilt_2 = 0.0
+10:08 INFO    :   phi_12 = 1.7
+10:08 INFO    :   phi_jl = 0.3
+10:08 INFO    :   luminosity_distance = 1000000.0
+10:08 INFO    :   theta_jn = 0.4
+10:08 INFO    :   psi = 0.659
+10:08 INFO    :   phase = 1.3
+10:08 INFO    :   geocent_time = 1126259642.413
+10:08 INFO    :   ra = 1.375
+10:08 INFO    :   dec = -1.2108
+10:10 INFO    : Injected signal in LISA_static:
+10:10 INFO    :   optimal SNR = 39.20
+10:10 INFO    :   matched filter SNR = 39.20+0.00j
+10:10 INFO    :   mass_1 = 3600000.0
+10:10 INFO    :   mass_2 = 2900000.0
+10:10 INFO    :   a_1 = 0.4
+10:10 INFO    :   a_2 = 0.3
+10:10 INFO    :   tilt_1 = 0.0
+10:10 INFO    :   tilt_2 = 0.0
+10:10 INFO    :   phi_12 = 1.7
+10:10 INFO    :   phi_jl = 0.3
+10:10 INFO    :   luminosity_distance = 1000000.0
+10:10 INFO    :   theta_jn = 0.4
+10:10 INFO    :   psi = 0.659
+10:10 INFO    :   phase = 1.3
+10:10 INFO    :   geocent_time = 1126259642.413
+10:10 INFO    :   ra = 1.375
+10:10 INFO    :   dec = -1.2108
+10:11 INFO    : Time jittering requested with non-time-marginalised likelihood, ignoring.
+10:11 INFO    : Running for label 'LISA_static', output will be saved to 'outdir'
+10:11 INFO    : Search parameters:
+10:11 INFO    :   mass_1 = Uniform(minimum=2000000.0, maximum=5000000.0, name='mass_1', latex_label='$m_1$', unit=None, boundary=None)
+10:11 INFO    :   mass_2 = Uniform(minimum=2000000.0, maximum=5000000.0, name='mass_2', latex_label='$m_2$', unit=None, boundary=None)
+10:11 INFO    :   geocent_time = Uniform(minimum=1126259642.3130002, maximum=1126259642.513, name=None, latex_label='$t_c$', unit='s', boundary=None)
+10:11 INFO    :   a_1 = 0.4
+10:11 INFO    :   a_2 = 0.3
+10:11 INFO    :   tilt_1 = 0.0
+10:11 INFO    :   tilt_2 = 0.0
+10:11 INFO    :   theta_jn = 0.4
+10:11 INFO    :   phase = 1.3
+10:11 INFO    :   psi = 0.659
+10:11 INFO    :   ra = 1.375
+10:11 INFO    :   dec = -1.2108
+10:11 INFO    :   phi_12 = 1.7
+10:11 INFO    :   phi_jl = 0.3
+10:11 INFO    :   luminosity_distance = 1000000.0
+10:11 INFO    : Single likelihood evaluation took 6.614e-03 s
+10:11 INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'check_point_delta_t': 600, 'nlive': 1024, 'first_update': None, 'walks': 30, 'npdim': None, 'rstate': None, 'queue_size': None, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': None, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 2.0, 'facc': 0.5, 'slices': 5, 'update_interval': 614, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x1097984e0>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False}
+10:11 INFO    : Checkpoint every n_check_point = 90000
+10:30 INFO    : Writing checkpoint file outdir/LISA_static_resume.pickle
+10:39 INFO    : Writing checkpoint file outdir/LISA_static_resume.pickle
+10:39 INFO    : Sampling time: 0:28:32.888483
+10:39 INFO    : Summary of results:
+nsamples: 12475
+log_noise_evidence: -768.144
+log_evidence: -8.830 +/-  0.124
+log_bayes_factor: 759.315 +/-  0.124
+
+10:53 INFO    : Injected signal in LISA_static:
+10:53 INFO    :   optimal SNR = 39195.52
+10:53 INFO    :   matched filter SNR = 39195.52+0.00j
+10:53 INFO    :   mass_1 = 3600000.0
+10:53 INFO    :   mass_2 = 2900000.0
+10:53 INFO    :   a_1 = 0.4
+10:53 INFO    :   a_2 = 0.3
+10:53 INFO    :   tilt_1 = 0.0
+10:53 INFO    :   tilt_2 = 0.0
+10:53 INFO    :   phi_12 = 1.7
+10:53 INFO    :   phi_jl = 0.3
+10:53 INFO    :   luminosity_distance = 1000
+10:53 INFO    :   theta_jn = 0.4
+10:53 INFO    :   psi = 0.659
+10:53 INFO    :   phase = 1.3
+10:53 INFO    :   geocent_time = 1126259642.413
+10:53 INFO    :   ra = 1.375
+10:53 INFO    :   dec = -1.2108
+10:53 INFO    : Time jittering requested with non-time-marginalised likelihood, ignoring.
+10:53 INFO    : Running for label 'LISA_static', output will be saved to 'outdir'
+10:53 INFO    : Search parameters:
+10:53 INFO    :   mass_1 = Uniform(minimum=2000000.0, maximum=5000000.0, name='mass_1', latex_label='$m_1$', unit=None, boundary=None)
+10:53 INFO    :   mass_2 = Uniform(minimum=2000000.0, maximum=5000000.0, name='mass_2', latex_label='$m_2$', unit=None, boundary=None)
+10:53 INFO    :   geocent_time = Uniform(minimum=1126259642.3130002, maximum=1126259642.513, name=None, latex_label='$t_c$', unit='s', boundary=None)
+10:53 INFO    :   a_1 = 0.4
+10:53 INFO    :   a_2 = 0.3
+10:53 INFO    :   tilt_1 = 0.0
+10:53 INFO    :   tilt_2 = 0.0
+10:53 INFO    :   theta_jn = 0.4
+10:53 INFO    :   phase = 1.3
+10:53 INFO    :   psi = 0.659
+10:53 INFO    :   ra = 1.375
+10:53 INFO    :   dec = -1.2108
+10:53 INFO    :   phi_12 = 1.7
+10:53 INFO    :   phi_jl = 0.3
+10:53 INFO    :   luminosity_distance = 1000
+10:53 INFO    : Single likelihood evaluation took 6.430e-03 s
+10:53 INFO    : Using sampler Dynesty with kwargs {'bound': 'multi', 'sample': 'rwalk', 'verbose': True, 'periodic': None, 'check_point_delta_t': 600, 'nlive': 1024, 'first_update': None, 'walks': 30, 'npdim': None, 'rstate': None, 'queue_size': None, 'pool': None, 'use_pool': None, 'live_points': None, 'logl_args': None, 'logl_kwargs': None, 'ptform_args': None, 'ptform_kwargs': None, 'enlarge': None, 'bootstrap': None, 'vol_dec': 0.5, 'vol_check': 2.0, 'facc': 0.5, 'slices': 5, 'update_interval': 614, 'print_func': <bound method Dynesty._print_func of <bilby.core.sampler.dynesty.Dynesty object at 0x1c229d0b00>>, 'dlogz': 0.1, 'maxiter': None, 'maxcall': None, 'logl_max': inf, 'add_live': True, 'print_progress': True, 'save_bounds': False}
+10:53 INFO    : Checkpoint every n_check_point = 90000
+10:53 INFO    : Reading resume file outdir/LISA_static_resume.pickle
+10:53 INFO    : Succesfuly read resume file outdir/LISA_static_resume.pickle
+10:53 INFO    : Resuming from previous run.
+10:53 INFO    : Sampling time: 0:28:32.888483
+10:53 INFO    : Summary of results:
+nsamples: 12475
+log_noise_evidence: -768144258.946
+log_evidence: -768143499.631 +/-  0.124
+log_bayes_factor: 759.315 +/-  0.124
+
